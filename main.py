@@ -55,7 +55,7 @@ class AsyncTask:
                     break
 
         print("Try Finding")
-        threading.Timer(5, self.FindHappy).start()
+        threading.Timer(30, self.FindHappy).start()
 
 
 at = AsyncTask()
